@@ -2,5 +2,6 @@ services:
   web:
    image: nginx:latest
    container_name: compose-nginx
+   restart: unless-stopped
    ports:
      - "8081:80"
