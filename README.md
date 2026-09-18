@@ -27,4 +27,6 @@ Redhat Enterprise Linux also known as RHEL pronounced Rel
 
 Who uses Redhat: Banks, Airlines, Telecoms, Healthcare, Government
 
-You need a license to run redhat, to avoid paying for a licence you can use redhat enterprise Linux derivative AlamaLinux or Rocky Linux which are free. CentOs used to be free redhat Linux, it moved from being a clone of redhat to being more of a preview of what is coming to rehat
+You need a license to run redhat, to avoid paying for a licence you can use redhat enterprise Linux derivative AlamaLinux or Rocky Linux which are free. CentOs used to be free redhat Linux, it moved from being a clone of redhat to being more of a preview of what is coming to rehat when this happened CentOs became Cento Stream.  If you want to work for startups or smaller web based companies like software as a service (SAAS) social networks or cloud companies you should focus on Ubuntu
+
+-l is list -o means online -d is distro
