@@ -1,0 +1,48 @@
+The grep Command
+
+grep Display lines matching a pattern
+grep Options
+-i perform a search, ignoring case
+-c Count the number of occurrences in a file
+-n Precede output with line numbers.
+-v Invert Match. Print lines that don't match.
+
+to search for contents of a file do cat file name
+example if we had a file named secret we can do cat secret
+to search for the contents of the file we do grep user secret
+it will find the file named user
+grep o secret will return all occureances that match that file.
+to do an inverse we can do 
+grep -v o secret that will return all the files that do not contain those files.
+to ignore the case we use i grep -i User secret
+that will ignore the case
+also -ci is to ignore teh count
+A binary file is a computer read file machine readable format
+if you run grep againist a binary format it will display wheater or not that information was founded or not, it will not display the text.
+Pipes
+
+| is a pipe you can chain two commands using a pipe.
+
+Transferring and Copying Files
+
+SCP Secure Copy
+SFTP - SSH file transfer protocol
+SCP and SFTP are both extensions of the secure shell protocol
+SFTP is SSH File Transfer Protocol
+
+Command line SCP Clients
+
+to use SCP or sftp you need a client mac and  linux come with scp sftp command line utlitites.
+
+Graphical Clients
+Cyberduck mac and windows
+FileZilla mac and linux
+WinSCP Windows only
+
+with scp you need to know what files you want to transfer before giving the command.
+
+you can also use ftp file transfer protocol you can use the built in ftp client on linux and mac ftp is not a secure transfer protocol like scp or sftp.  Not being secure means your credientials are plain text and your files are not encrypted over the network. 
+
+If you have a choice pick the secure option ALWAYS.
+
+
